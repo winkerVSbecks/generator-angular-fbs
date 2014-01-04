@@ -55,15 +55,15 @@ var Generator = module.exports = function Generator(args, options) {
     args.push('--minsafe');
   }
 
-  this.hookFor('angular:common', {
+  this.hookFor('angular-fbs:common', {
     args: args
   });
 
-  this.hookFor('angular:main', {
+  this.hookFor('angular-fbs:main', {
     args: args
   });
 
-  this.hookFor('angular:controller', {
+  this.hookFor('angular-fbs:feature', {
     args: args
   });
 
@@ -251,7 +251,7 @@ Generator.prototype.appJs = function appJs() {
     html: this.indexFile,
     fileType: 'js',
     optimizedPath: 'scripts/scripts.js',
-    sourceFileList: ['scripts/app.js', 'scripts/controllers/main.js'],
+    sourceFileList: ['app.js'],
     searchPath: ['.tmp', 'app']
   });
 };

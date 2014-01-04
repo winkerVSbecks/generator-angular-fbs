@@ -18,11 +18,11 @@ Generator.prototype.rewriteAppJs = function () {
   var config = {
     file: path.join(
       this.env.options.appPath,
-      'scripts/app.' + (coffee ? 'coffee' : 'js')
+      'app.' + (coffee ? 'coffee' : 'js')
     ),
     needle: '.otherwise',
     splicable: [
-      "  templateUrl: 'views/" + this.name.toLowerCase() + ".html'" + (coffee ? "" : "," ),
+      "  templateUrl: '" + this.name.toLowerCase() + "/index.html'" + (coffee ? "" : "," ),
       "  controller: '" + this.classedName + "Ctrl'"
     ]
   };

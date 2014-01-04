@@ -1,22 +1,25 @@
 {
-  "name": "generator-angular",
+  "name": "generator-angular-fbs",
   "version": "0.7.1",
-  "description": "Yeoman generator for AngularJS",
+  "description": "Yeoman generator for AngularJS using the feature based directory structure",
   "keywords": [
     "yeoman-generator",
     "scaffold",
     "framework",
     "component",
     "front-end",
-    "app"
+    "app",
+    "angular",
+    "fbs",
+    "rangle"
   ],
   "homepage": "https://github.com/yeoman/generator-angular",
   "bugs": "https://github.com/yeoman/generator-angular/issues",
-  "author": "Chrome Developer Relations",
+  "author": "Chrome Developer Relations - forked by Varun Vachhar",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yeoman/generator-angular.git"
+    "url": "git://github.com/winkerVSbecks/generator-angular-fbs.git"
   },
   "scripts": {
     "test": "mocha"

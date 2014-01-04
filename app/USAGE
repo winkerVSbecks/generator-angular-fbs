@@ -1,5 +1,5 @@
 Description:
-    Creates a default AngularJS app
+    Creates a default AngularJS app with feature based directory structure
 
 Example:
     yo angular [--coffee] [--minsafe]
