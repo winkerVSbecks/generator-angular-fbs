@@ -13,8 +13,8 @@
     "fbs",
     "rangle"
   ],
-  "homepage": "https://github.com/yeoman/generator-angular",
-  "bugs": "https://github.com/yeoman/generator-angular/issues",
+  "homepage": "https://github.com/winkerVSbecks/generator-angular-fbs",
+  "bugs": "https://github.com/winkerVSbecks/generator-angular-fbs/issues",
   "author": "Chrome Developer Relations - forked by Varun Vachhar",
   "main": "app/index.js",
   "repository": {

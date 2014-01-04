@@ -1,8 +1,8 @@
-# AngularJS generator (Feature Based Setup)
+# AngularJS generator (Feature Based Directory Structure)
 
-*Not fully functional yet*
+*Not fully functional and not testing yet*
 
-A for of the Yeoman AngularJS generator but uses feature based directory structure instead:
+A fork of the [Yeoman AngularJS generator](https://github.com/yeoman/generator-angular) that uses a feature based directory structure:
 
 	/app
 	  	/feature-name
